@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adressen>
+	<adress>
+		<name>Max Mustermann</name>
+		<strasse> Musterstraße 1</strasse>
+		<plz>32361</plz>
+		<ort>Musterhausen</ort>
+	</adress>
+</adressen>
