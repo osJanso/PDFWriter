@@ -1,14 +1,21 @@
-import java.io.File;
+import com.itextpdf.*;
+import com.itextpdf.kernel.pdf.PdfWriter;
+import com.itextpdf.styledxmlparser.jsoup.nodes.Document;
 
 public class PDf {
 
+	PdfWriter writer;
+	Document docu;
 	
-	public static final String DEST = "C:/User/Jan/Desktop/Test.pdf";
 	
-	public static void main(String[] args) {
-		File file = new File(DEST);
-		PDFWriter writer = new PDFWriter();
 	
+	
+	public static final PdfReader DEST = "C:/User/Jan/Desktop/Test.pdf";
+	
+	public static void main (String[] args) {
+		Document docu = new Document();
+	
+		
 		
 
 	}
